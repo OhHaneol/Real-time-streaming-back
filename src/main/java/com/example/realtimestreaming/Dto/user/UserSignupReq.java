@@ -1,13 +1,10 @@
-package com.example.realtimestreaming.Dto.Request.User;
+package com.example.realtimestreaming.Dto.user;
 
 import lombok.Data;
 
 @Data
-public class SignupDto {
-
+public class UserSignupReq {
     private String email;
-
     private String password;
-
     private String nickname;
 }
