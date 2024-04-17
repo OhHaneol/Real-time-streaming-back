@@ -20,5 +20,4 @@ public class UserController {
         User user = userService.signup(request);
         return ResponseEntity.ok(user);
     }
-
 }
