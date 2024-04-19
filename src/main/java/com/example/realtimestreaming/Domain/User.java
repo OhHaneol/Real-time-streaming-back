@@ -15,7 +15,6 @@ import java.util.List;
 @Table(name = "user")
 public class User {
 
-    // TODO "there can be only one auto column and it must be defined as a key" 오류 해결
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "userId")
